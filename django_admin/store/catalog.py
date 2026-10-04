@@ -1,0 +1,198 @@
+"""Local sample catalog. Prices and specifications are illustrative."""
+
+PRODUCTS = [
+    (
+        "Keychron K2 Wireless Keyboard",
+        "Keychron",
+        "Keyboards",
+        "89.00",
+        24,
+        {"Layout": "75%", "Switch": "Mechanical", "Connection": "Bluetooth / USB-C"},
+    ),
+    (
+        "Keychron K6 Compact Keyboard",
+        "Keychron",
+        "Keyboards",
+        "79.00",
+        18,
+        {"Layout": "65%", "Switch": "Mechanical", "Connection": "Bluetooth / USB-C"},
+    ),
+    (
+        "Keychron V1 Wired Keyboard",
+        "Keychron",
+        "Keyboards",
+        "99.00",
+        12,
+        {"Layout": "75%", "Switch": "Hot-swappable", "Connection": "USB-C"},
+    ),
+    (
+        "Logitech MX Keys S",
+        "Logitech",
+        "Keyboards",
+        "109.00",
+        30,
+        {
+            "Layout": "Full-size",
+            "Switch": "Scissor",
+            "Connection": "Bluetooth / USB receiver",
+        },
+    ),
+    (
+        "Logitech Pebble Keys 2 K380s",
+        "Logitech",
+        "Keyboards",
+        "39.00",
+        40,
+        {"Layout": "Compact", "Connection": "Bluetooth", "Battery": "36 months"},
+    ),
+    (
+        "Logitech MX Master 3S",
+        "Logitech",
+        "Mice",
+        "99.00",
+        22,
+        {"Sensor": "8000 DPI", "Connection": "Bluetooth / USB receiver"},
+    ),
+    (
+        "Logitech Lift Vertical Mouse",
+        "Logitech",
+        "Mice",
+        "69.00",
+        15,
+        {"Design": "Vertical", "Connection": "Bluetooth / USB receiver"},
+    ),
+    (
+        "Logitech M720 Triathlon",
+        "Logitech",
+        "Mice",
+        "49.00",
+        35,
+        {"Devices": "3", "Battery": "24 months"},
+    ),
+    (
+        "Logitech Pebble Mouse 2 M350s",
+        "Logitech",
+        "Mice",
+        "29.00",
+        0,
+        {"Design": "Compact", "Connection": "Bluetooth"},
+    ),
+    (
+        "Keychron M3 Wireless Mouse",
+        "Keychron",
+        "Mice",
+        "49.00",
+        17,
+        {"Weight": "79 g", "Connection": "2.4 GHz / Bluetooth / USB-C"},
+    ),
+    (
+        "Sony WH-1000XM5 Headphones",
+        "Sony",
+        "Audio",
+        "349.00",
+        10,
+        {"Noise cancellation": "Active", "Battery": "30 hours"},
+    ),
+    (
+        "Sony WH-CH720N Headphones",
+        "Sony",
+        "Audio",
+        "129.00",
+        20,
+        {"Noise cancellation": "Active", "Battery": "35 hours"},
+    ),
+    (
+        "Sony WI-C100 Earphones",
+        "Sony",
+        "Audio",
+        "39.00",
+        25,
+        {"Style": "In-ear", "Battery": "25 hours"},
+    ),
+    (
+        "Logitech Zone Vibe 100",
+        "Logitech",
+        "Audio",
+        "99.00",
+        14,
+        {"Microphone": "Flip-to-mute", "Connection": "Bluetooth"},
+    ),
+    (
+        "Dell UltraSharp U2724D",
+        "Dell",
+        "Monitors",
+        "399.00",
+        8,
+        {"Size": "27 inches", "Resolution": "2560 x 1440", "Refresh rate": "120 Hz"},
+    ),
+    (
+        "Dell P2425H Monitor",
+        "Dell",
+        "Monitors",
+        "199.00",
+        16,
+        {"Size": "24 inches", "Resolution": "1920 x 1080", "Panel": "IPS"},
+    ),
+    (
+        "Dell S2722QC USB-C Monitor",
+        "Dell",
+        "Monitors",
+        "299.00",
+        6,
+        {
+            "Size": "27 inches",
+            "Resolution": "3840 x 2160",
+            "Connection": "USB-C / HDMI",
+        },
+    ),
+    (
+        "Logitech Desk Mat",
+        "Logitech",
+        "Desk Accessories",
+        "19.00",
+        50,
+        {"Material": "Fabric", "Size": "70 x 30 cm"},
+    ),
+    (
+        "Keychron Wooden Palm Rest",
+        "Keychron",
+        "Desk Accessories",
+        "29.00",
+        28,
+        {"Material": "Wood", "Compatibility": "75% keyboards"},
+    ),
+    (
+        "Dell Dual Monitor Arm MDA20",
+        "Dell",
+        "Desk Accessories",
+        "189.00",
+        5,
+        {"Mount": "Desk clamp", "Capacity": "Two monitors"},
+    ),
+]
+
+
+CATEGORIES_TR = {
+    "Keyboards": "Klavyeler", "Mice": "Fareler", "Audio": "Ses Ürünleri",
+    "Monitors": "Monitörler", "Desk Accessories": "Masa Aksesuarları",
+}
+SPEC_KEYS_TR = {
+    "Layout": "Düzen", "Switch": "Anahtar", "Connection": "Bağlantı",
+    "Battery": "Pil ömrü", "Sensor": "Sensör", "Design": "Tasarım",
+    "Devices": "Cihaz sayısı", "Weight": "Ağırlık", "Noise cancellation": "Gürültü engelleme",
+    "Style": "Tür", "Microphone": "Mikrofon", "Size": "Boyut", "Resolution": "Çözünürlük",
+    "Refresh rate": "Yenileme hızı", "Panel": "Panel", "Material": "Malzeme",
+    "Compatibility": "Uyumluluk", "Mount": "Montaj", "Capacity": "Kapasite",
+}
+SPEC_VALUES_TR = {
+    "Mechanical": "Mekanik", "Hot-swappable": "Çalışırken değiştirilebilir",
+    "Scissor": "Makas mekanizmalı", "Full-size": "Tam boy", "Compact": "Kompakt",
+    "Bluetooth / USB receiver": "Bluetooth / USB alıcısı", "Vertical": "Dikey",
+    "Active": "Aktif", "In-ear": "Kulak içi", "Flip-to-mute": "Kaldırarak sessize alma",
+    "Fabric": "Kumaş", "Wood": "Ahşap", "75% keyboards": "%75 düzenli klavyeler",
+    "Desk clamp": "Masa kelepçesi", "Two monitors": "İki monitör",
+}
+
+
+def specification_value_tr(value):
+    return SPEC_VALUES_TR.get(value, value.replace(" months", " ay").replace(" hours", " saat").replace(" days", " gün").replace(" inches", " inç"))

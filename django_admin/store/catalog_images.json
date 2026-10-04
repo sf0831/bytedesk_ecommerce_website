@@ -1,0 +1,82 @@
+{
+  "BD-0001": {
+    "url": "/images/products/keychron-k2-wireless-keyboard.jpg",
+    "alt_text": "Keychron K2 Wireless Keyboard product photo"
+  },
+  "BD-0002": {
+    "url": "/images/products/keychron-k6-compact-keyboard.jpg",
+    "alt_text": "Keychron K6 Compact Keyboard product photo"
+  },
+  "BD-0003": {
+    "url": "/images/products/keychron-v1-wired-keyboard.jpg",
+    "alt_text": "Keychron V1 Wired Keyboard product photo"
+  },
+  "BD-0010": {
+    "url": "/images/products/keychron-m3-wireless-mouse.jpg",
+    "alt_text": "Keychron M3 Wireless Mouse product photo"
+  },
+  "BD-0019": {
+    "url": "/images/products/keychron-wooden-palm-rest.jpg",
+    "alt_text": "Keychron Wooden Palm Rest product photo"
+  },
+  "BD-0004": {
+    "url": "/images/products/logitech-mx-keys-s.png",
+    "alt_text": "Logitech MX Keys S product photo"
+  },
+  "BD-0005": {
+    "url": "/images/products/logitech-pebble-keys-2-k380s.png",
+    "alt_text": "Logitech Pebble Keys 2 K380s product photo"
+  },
+  "BD-0006": {
+    "url": "/images/products/logitech-mx-master-3s.png",
+    "alt_text": "Logitech MX Master 3S product photo"
+  },
+  "BD-0007": {
+    "url": "/images/products/logitech-lift-vertical-mouse.png",
+    "alt_text": "Logitech Lift Vertical Mouse product photo"
+  },
+  "BD-0008": {
+    "url": "/images/products/logitech-m720-triathlon.png",
+    "alt_text": "Logitech M720 Triathlon product photo"
+  },
+  "BD-0009": {
+    "url": "/images/products/logitech-pebble-mouse-2-m350s.png",
+    "alt_text": "Logitech Pebble Mouse 2 M350s product photo"
+  },
+  "BD-0014": {
+    "url": "/images/products/logitech-zone-vibe-100.png",
+    "alt_text": "Logitech Zone Vibe 100 product photo"
+  },
+  "BD-0018": {
+    "url": "/images/products/logitech-desk-mat.png",
+    "alt_text": "Logitech Desk Mat product photo"
+  },
+  "BD-0016": {
+    "url": "/images/products/dell-p2425h-monitor.jpg",
+    "alt_text": "Dell P2425H Monitor product photo"
+  },
+  "BD-0015": {
+    "url": "/images/products/dell-ultrasharp-u2724d.jpg",
+    "alt_text": "Dell UltraSharp U2724D product photo"
+  },
+  "BD-0017": {
+    "url": "/images/products/dell-s2722qc-usb-c-monitor.png",
+    "alt_text": "Dell S2722QC USB-C Monitor product photo"
+  },
+  "BD-0011": {
+    "url": "/images/products/sony-wh-1000xm5-headphones.png",
+    "alt_text": "Sony WH-1000XM5 Headphones product photo"
+  },
+  "BD-0012": {
+    "url": "/images/products/sony-wh-ch720n-headphones.jpg",
+    "alt_text": "Sony WH-CH720N Headphones product photo"
+  },
+  "BD-0013": {
+    "url": "/images/products/sony-wi-c100-earphones.jpg",
+    "alt_text": "Sony WI-C100 Earphones product photo"
+  },
+  "BD-0020": {
+    "url": "/images/products/dell-dual-monitor-arm-mda20.jpg",
+    "alt_text": "Dell Dual Monitor Arm MDA20 product photo"
+  }
+}
